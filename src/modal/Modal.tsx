@@ -9,6 +9,8 @@ function Modal() {
     <div className="container-modal">
         <p onClick={()=>setmodal(true)} >Opne window</p>
     </div>
+
+    {/* ---modal--- */}
     <div className={`modal ${modal? `window` : `none`}`}>
         <div className='modal-box'>
             <div className="p-top-modal">
