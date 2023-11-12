@@ -29,3 +29,54 @@
   100% {transform: rotate(0deg)}
 
 }
+
+
+
+/* ----modal---- */
+.modal.none{
+  display: none;
+}
+
+.modal.window{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.modal-box{
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  max-width: 500px;
+}
+
+.modal-text-center{
+  padding: 40px 0px;
+}
+.modal-text-center p{
+  padding-bottom: 10px;
+}
+.page-row{
+  justify-content:center;
+  display: flex;
+  gap: 10px;
+}
+.page-row p{
+  padding:10px 50px;
+  border-radius: 10px;
+  background-color:rgb(3, 255, 3);
+}
+.modal-text-end {
+  padding-bottom:20px;
+  justify-content: center;
+  display: flex;
+}
+.modal-text-end p{
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 40px ;
+  background-color: blue;
+  color: white;
+  border-radius: 10px ;
+}
