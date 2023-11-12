@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { IoCloseOutline } from "react-icons/io5";
 
 function Modal() {
     const [modal , setmodal] = useState(false)
@@ -10,7 +11,12 @@ function Modal() {
     </div>
     <div className={`modal ${modal? `window` : `none`}`}>
         <div className='modal-box'>
-            <p>WELCOME</p>
+            <div className="p-top-modal">
+                <p >WELCOME</p>
+                <div onClick={()=>setmodal(false)}  className="IoCloseOutline">
+                    <IoCloseOutline/>
+                </div>
+            </div>
             <div className='modal-text-center'>
                 <p>this is window</p>
                 <div className="page-row">
